@@ -75,9 +75,9 @@ as part of the **Design Thinking and Innovation (DTI)** course project.
 
 ### 👨‍💻 Team Members:
  
-- 👤 **A. Harshitha** – 23BQ1A0506  
-- 👤 **A. Shakeena** – 23BQ1A0508  
-- 👤 **D. Srinidhi** – 23BQ1A0558
+- 👤 **A. Harshitha Sai** – 23BQ1A0506  
+- 👤 **A. Shakeena Rani** – 23BQ1A0508  
+- 👤 **D. Naga Srinidhi** – 23BQ1A0558
 - 👤 **D. Manvith Kumar Reddy** – 23BQ1A0560 
 
 🎓 **2nd Year B.Tech – CSE (Section A)**  
