@@ -1,0 +1,74 @@
+/* B.Sc. Program Color Themes */
+
+/* Main B.Sc. Theme */
+.bsc-theme {
+    --primary: #00695c; /* Teal */
+    --secondary: #26a69a; /* Light Teal */
+    --accent: #ffc107; /* Amber */
+    --dark-tone: #004d40; /* Dark Teal */
+    --light-tone: #e0f2f1; /* Light Teal */
+}
+
+/* Computer Science Theme */
+.bsc-cs-theme {
+    --primary: #0288d1; /* Blue */
+    --secondary: #29b6f6; /* Light Blue */
+    --accent: #ff9800; /* Orange */
+    --dark-tone: #01579b; /* Dark Blue */
+    --light-tone: #e1f5fe; /* Light Blue */
+}
+
+/* Biotechnology Theme */
+.bsc-biotech-theme {
+    --primary: #00796b; /* Teal */
+    --secondary: #26a69a; /* Light Teal */
+    --accent: #ffc107; /* Amber */
+    --dark-tone: #004d40; /* Dark Teal */
+    --light-tone: #e0f2f1; /* Light Teal */
+}
+
+/* Microbiology Theme */
+.bsc-microbio-theme {
+    --primary: #00897b; /* Teal */
+    --secondary: #4db6ac; /* Light Teal */
+    --accent: #ff9800; /* Orange */
+    --dark-tone: #00695c; /* Dark Teal */
+    --light-tone: #e0f2f1; /* Light Teal */
+}
+
+/* Physics/Chemistry/Maths Theme */
+.bsc-pcm-theme {
+    --primary: #00695c; /* Teal */
+    --secondary: #26a69a; /* Light Teal */
+    --accent: #ffc107; /* Amber */
+    --dark-tone: #004d40; /* Dark Teal */
+    --light-tone: #e0f2f1; /* Light Teal */
+    --border-color: #ffeb3b; /* Yellow border */
+}
+
+/* Agriculture Theme */
+.bsc-agri-theme {
+    --primary: #2e7d32; /* Green */
+    --secondary: #66bb6a; /* Light Green */
+    --accent: #ffc107; /* Amber */
+    --dark-tone: #1b5e20; /* Dark Green */
+    --light-tone: #e8f5e9; /* Light Green */
+}
+
+/* Environmental Science Theme */
+.bsc-env-theme {
+    --primary: #388e3c; /* Green */
+    --secondary: #66bb6a; /* Light Green */
+    --accent: #03a9f4; /* Light Blue */
+    --dark-tone: #1b5e20; /* Dark Green */
+    --light-tone: #e8f5e9; /* Light Green */
+}
+
+/* Forensic Science Theme */
+.bsc-forensic-theme {
+    --primary: #6a1b9a; /* Purple */
+    --secondary: #9c27b0; /* Light Purple */
+    --accent: #ff5722; /* Deep Orange */
+    --dark-tone: #4a148c; /* Dark Purple */
+    --light-tone: #f3e5f5; /* Light Purple */
+}

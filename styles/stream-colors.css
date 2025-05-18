@@ -1,0 +1,1967 @@
+/* Stream-specific Color Palettes */
+
+/* B.Tech Colors - Modern & Technical Tone */
+.btech-theme {
+    --primary: #003135; /* Dark Teal - consistent with main theme */
+    --secondary: #3A7CA5; /* Sky */
+    --accent: #FF9F1C; /* Gold */
+    --dark-tone: #013438;
+    --light-tone: #E6F0F0;
+}
+
+/* B.Tech Branch-specific Colors */
+/* CSE - Computer Science and Engineering */
+.cse-theme {
+    --primary: #024950;
+    --secondary: #037171;
+    --accent: #0FAAAF;
+    --dark-tone: #013438;
+    --light-tone: #E6F0F0;
+}
+
+/* IT - Information Technology */
+.it-theme {
+    --primary: #0F4C81;
+    --secondary: #3A7CA5;
+    --accent: #FF9F1C;
+    --dark-tone: #0A3559;
+    --light-tone: #E6EEF5;
+}
+
+/* CSML - CS & Machine Learning */
+.csml-theme {
+    --primary: #1E3D59;
+    --secondary: #41729F;
+    --accent: #FFC857;
+    --dark-tone: #152B3F;
+    --light-tone: #E8ECF0;
+}
+
+/* CSAI - CS & Artificial Intelligence */
+.csai-theme {
+    --primary: #283593;
+    --secondary: #5C6BC0;
+    --accent: #FF7043;
+    --dark-tone: #1C2567;
+    --light-tone: #E8EAF6;
+}
+
+/* CSDS - CS & Data Science */
+.csds-theme {
+    --primary: #4A148C;
+    --secondary: #7B1FA2;
+    --accent: #F48FB1;
+    --dark-tone: #340E62;
+    --light-tone: #EDE7F6;
+}
+
+/* CSCS - CS & Cyber Security */
+.cscs-theme {
+    --primary: #263238;
+    --secondary: #546E7A;
+    --accent: #FFD600;
+    --dark-tone: #1A2327;
+    --light-tone: #E9ECEE;
+}
+
+/* AIML - AI & Machine Learning */
+.aiml-theme {
+    --primary: #00695C;
+    --secondary: #26A69A;
+    --accent: #FF6F00;
+    --dark-tone: #004940;
+    --light-tone: #E0F2F1;
+}
+
+/* AIDS - AI & Data Science */
+.aids-theme {
+    --primary: #4527A0;
+    --secondary: #7E57C2;
+    --accent: #FFCA28;
+    --dark-tone: #301B70;
+    --light-tone: #EDE7F6;
+}
+
+/* ECE - Electronics & Communication */
+.ece-theme {
+    --primary: #37474F;
+    --secondary: #607D8B;
+    --accent: #FF8A65;
+    --dark-tone: #263238;
+    --light-tone: #ECEFF1;
+}
+
+/* EEE - Electrical & Electronics */
+.eee-theme {
+    --primary: #1B5E20;
+    --secondary: #66BB6A;
+    --accent: #FFD54F;
+    --dark-tone: #124116;
+    --light-tone: #E8F5E9;
+}
+
+/* MECH - Mechanical Engineering */
+.mech-theme {
+    --primary: #546E7A;
+    --secondary: #90A4AE;
+    --accent: #F9A825;
+    --dark-tone: #3B4D55;
+    --light-tone: #ECEFF1;
+}
+
+/* CIVIL - Civil Engineering */
+.civil-theme {
+    --primary: #5D4037;
+    --secondary: #8D6E63;
+    --accent: #FFB74D;
+    --dark-tone: #402C26;
+    --light-tone: #EFEBE9;
+}
+
+/* M.Tech Colors - Clean, Advanced Specialization Feel */
+.mtech-theme {
+    --primary: #0FAAAF; /* Aqua */
+    --secondary: #66BBB8; /* Light Aqua */
+    --accent: #FF7043; /* Coral */
+    --dark-tone: #0A7A7D;
+    --light-tone: #E8F5F5;
+}
+
+/* M.Tech Branch-specific Colors */
+/* CSE - Computer Science and Engineering */
+.mtech-cse-theme {
+    --primary: #2E7D32;
+    --secondary: #66BB6A;
+    --accent: #FF7043;
+    --dark-tone: #1B5E20;
+    --light-tone: #E8F5E9;
+}
+
+/* AI & ML - Artificial Intelligence and Machine Learning */
+.mtech-aiml-theme {
+    --primary: #1B5E20;
+    --secondary: #43A047;
+    --accent: #FFB300;
+    --dark-tone: #0A3B13;
+    --light-tone: #E8F5E9;
+}
+
+/* Cyber Security */
+.mtech-cybersec-theme {
+    --primary: #004D40;
+    --secondary: #26A69A;
+    --accent: #FFC107;
+    --dark-tone: #00352C;
+    --light-tone: #E0F2F1;
+}
+
+/* Data Science */
+.mtech-datascience-theme {
+    --primary: #33691E;
+    --secondary: #689F38;
+    --accent: #F9A825;
+    --dark-tone: #1F3E12;
+    --light-tone: #F1F8E9;
+}
+
+/* Embedded Systems */
+.mtech-embedded-theme {
+    --primary: #006064;
+    --secondary: #4DD0E1;
+    --accent: #FF8A65;
+    --dark-tone: #00474A;
+    --light-tone: #E0F7FA;
+}
+
+/* VLSI Design */
+.mtech-vlsi-theme {
+    --primary: #37474F;
+    --secondary: #90A4AE;
+    --accent: #FFD600;
+    --dark-tone: #263238;
+    --light-tone: #ECEFF1;
+}
+
+/* Power Systems */
+.mtech-power-theme {
+    --primary: #263238;
+    --secondary: #546E7A;
+    --accent: #FFAB00;
+    --dark-tone: #1C2428;
+    --light-tone: #ECEFF1;
+}
+
+/* Thermal Engineering */
+.mtech-thermal-theme {
+    --primary: #4E342E;
+    --secondary: #8D6E63;
+    --accent: #FF6F00;
+    --dark-tone: #3E2723;
+    --light-tone: #EFEBE9;
+}
+
+/* Structural Engineering */
+.mtech-structural-theme {
+    --primary: #3E2723;
+    --secondary: #6D4C41;
+    --accent: #FFB74D;
+    --dark-tone: #2E1C19;
+    --light-tone: #EFEBE9;
+}
+
+/* Machine Design */
+.mtech-machinedesign-theme {
+    --primary: #1A237E;
+    --secondary: #5C6BC0;
+    --accent: #FF5722;
+    --dark-tone: #121858;
+    --light-tone: #E8EAF6;
+}
+
+/* Diploma Colors - Practical and Grounded */
+.diploma-theme {
+    --primary: #964734; /* Rust */
+    --secondary: #C67C6D; /* Light Rust */
+    --accent: #F9A825; /* Amber */
+    --dark-tone: #6A3225;
+    --light-tone: #F5EBE9;
+}
+
+/* Diploma Branch-specific Colors */
+/* Civil Engineering (DCE) */
+.diploma-civil-theme {
+    --primary: #964734;
+    --secondary: #B5694F;
+    --accent: #F9A825;
+    --dark-tone: #6A3225;
+    --light-tone: #F5EBE9;
+}
+
+/* Mechanical Engineering (DME) */
+.diploma-mech-theme {
+    --primary: #5D4037;
+    --secondary: #A1887F;
+    --accent: #FF8F00;
+    --dark-tone: #402C26;
+    --light-tone: #EFEBE9;
+}
+
+/* Electrical Engineering (DEE) */
+.diploma-electrical-theme {
+    --primary: #6D4C41;
+    --secondary: #A1887F;
+    --accent: #F57C00;
+    --dark-tone: #4E342E;
+    --light-tone: #EFEBE9;
+}
+
+/* Electronics & Comm (DECE) */
+.diploma-ece-theme {
+    --primary: #4E342E;
+    --secondary: #8D6E63;
+    --accent: #FF7043;
+    --dark-tone: #3E2723;
+    --light-tone: #EFEBE9;
+}
+
+/* Computer Engineering */
+.diploma-computer-theme {
+    --primary: #3E2723;
+    --secondary: #6D4C41;
+    --accent: #FFA726;
+    --dark-tone: #2E1C19;
+    --light-tone: #EFEBE9;
+}
+
+/* Information Technology */
+.diploma-it-theme {
+    --primary: #5E35B1;
+    --secondary: #9575CD;
+    --accent: #FFB74D;
+    --dark-tone: #4527A0;
+    --light-tone: #EDE7F6;
+}
+
+/* Automobile Engineering */
+.diploma-automobile-theme {
+    --primary: #37474F;
+    --secondary: #90A4AE;
+    --accent: #FFD600;
+    --dark-tone: #263238;
+    --light-tone: #ECEFF1;
+}
+
+/* Mechatronics */
+.diploma-mechatronics-theme {
+    --primary: #0277BD;
+    --secondary: #4FC3F7;
+    --accent: #FFC107;
+    --dark-tone: #01579B;
+    --light-tone: #E1F5FE;
+}
+
+/* Mining Engineering */
+.diploma-mining-theme {
+    --primary: #455A64;
+    --secondary: #78909C;
+    --accent: #FFCA28;
+    --dark-tone: #37474F;
+    --light-tone: #ECEFF1;
+}
+
+/* Tool and Die Making */
+.diploma-tool-theme {
+    --primary: #546E7A;
+    --secondary: #90A4AE;
+    --accent: #FFEE58;
+    --dark-tone: #455A64;
+    --light-tone: #ECEFF1;
+}
+
+/* Pharmacy Colors - Intellectual, Medical Precision */
+.pharmacy-theme {
+    --primary: #4B0082; /* Indigo */
+    --secondary: #8A63B1; /* Light Indigo */
+    --accent: #00BCD4; /* Cyan */
+    --dark-tone: #35005C;
+    --light-tone: #EDE7F6;
+}
+
+/* Pharmacy Branch-specific Colors */
+/* B.Pharmacy */
+.pharmacy-bpharm-theme {
+    --primary: #00695C;
+    --secondary: #26A69A;
+    --accent: #AED581;
+    --dark-tone: #004D40;
+    --light-tone: #E0F2F1;
+}
+
+/* D.Pharmacy */
+.pharmacy-dpharm-theme {
+    --primary: #004D40;
+    --secondary: #009688;
+    --accent: #C5E1A5;
+    --dark-tone: #00352C;
+    --light-tone: #E0F2F1;
+}
+
+/* Pharmacology */
+.pharmacy-pharmacology-theme {
+    --primary: #1B5E20;
+    --secondary: #43A047;
+    --accent: #FFB300;
+    --dark-tone: #0A3B13;
+    --light-tone: #E8F5E9;
+}
+
+/* Pharmaceutics */
+.pharmacy-pharmaceutics-theme {
+    --primary: #33691E;
+    --secondary: #689F38;
+    --accent: #FF7043;
+    --dark-tone: #1F3E12;
+    --light-tone: #F1F8E9;
+}
+
+/* Pharmaceutical Chemistry */
+.pharmacy-chemistry-theme {
+    --primary: #2E7D32;
+    --secondary: #66BB6A;
+    --accent: #FFA726;
+    --dark-tone: #1B5E20;
+    --light-tone: #E8F5E9;
+}
+
+/* Quality Assurance */
+.pharmacy-qa-theme {
+    --primary: #4CAF50;
+    --secondary: #A5D6A7;
+    --accent: #FF8A65;
+    --dark-tone: #388E3C;
+    --light-tone: #E8F5E9;
+}
+
+/* Pharmacognosy */
+.pharmacy-pharmacognosy-theme {
+    --primary: #388E3C;
+    --secondary: #81C784;
+    --accent: #FFD600;
+    --dark-tone: #2E7D32;
+    --light-tone: #E8F5E9;
+}
+
+/* Industrial Pharmacy */
+.pharmacy-industrial-theme {
+    --primary: #00796B;
+    --secondary: #4DB6AC;
+    --accent: #FFAB00;
+    --dark-tone: #00695C;
+    --light-tone: #E0F2F1;
+}
+
+/* Clinical Pharmacy */
+.pharmacy-clinical-theme {
+    --primary: #00897B;
+    --secondary: #80CBC4;
+    --accent: #FFC107;
+    --dark-tone: #00796B;
+    --light-tone: #E0F2F1;
+}
+
+/* Pharmaceutical Analysis */
+.pharmacy-analysis-theme {
+    --primary: #43A047;
+    --secondary: #AED581;
+    --accent: #FFCA28;
+    --dark-tone: #388E3C;
+    --light-tone: #E8F5E9;
+}
+
+/* MBA Colors - Executive, Confident */
+.mba-theme {
+    --primary: #1A237E; /* Deep Indigo */
+    --secondary: #5C6BC0; /* Light Indigo */
+    --accent: #FFC107; /* Amber */
+    --dark-tone: #121858;
+    --light-tone: #E8EAF6;
+}
+
+/* MBA Branch-specific Colors */
+/* Finance */
+.mba-finance-theme {
+    --primary: #4527A0;
+    --secondary: #7E57C2;
+    --accent: #FFB300;
+    --dark-tone: #301B70;
+    --light-tone: #EDE7F6;
+}
+
+/* Marketing */
+.mba-marketing-theme {
+    --primary: #5E35B1;
+    --secondary: #9575CD;
+    --accent: #FDD835;
+    --dark-tone: #4527A0;
+    --light-tone: #EDE7F6;
+}
+
+/* Human Resource Management */
+.mba-hr-theme {
+    --primary: #6A1B9A;
+    --secondary: #BA68C8;
+    --accent: #FFCA28;
+    --dark-tone: #4A148C;
+    --light-tone: #F3E5F5;
+}
+
+/* Operations Management */
+.mba-operations-theme {
+    --primary: #512DA8;
+    --secondary: #9575CD;
+    --accent: #FF8A65;
+    --dark-tone: #4527A0;
+    --light-tone: #EDE7F6;
+}
+
+/* Business Analytics */
+.mba-analytics-theme {
+    --primary: #283593;
+    --secondary: #7986CB;
+    --accent: #FFA000;
+    --dark-tone: #1A237E;
+    --light-tone: #E8EAF6;
+}
+
+/* International Business */
+.mba-international-theme {
+    --primary: #1565C0;
+    --secondary: #64B5F6;
+    --accent: #F9A825;
+    --dark-tone: #0D47A1;
+    --light-tone: #E3F2FD;
+}
+
+/* IT & Systems */
+.mba-it-theme {
+    --primary: #0277BD;
+    --secondary: #4FC3F7;
+    --accent: #FF7043;
+    --dark-tone: #01579B;
+    --light-tone: #E1F5FE;
+}
+
+/* Retail Management */
+.mba-retail-theme {
+    --primary: #AD1457;
+    --secondary: #F06292;
+    --accent: #FFEE58;
+    --dark-tone: #880E4F;
+    --light-tone: #FCE4EC;
+}
+
+/* Healthcare & Hospital Management */
+.mba-healthcare-theme {
+    --primary: #00695C;
+    --secondary: #26A69A;
+    --accent: #FFB74D;
+    --dark-tone: #004D40;
+    --light-tone: #E0F2F1;
+}
+
+/* Supply Chain Management */
+.mba-supplychain-theme {
+    --primary: #2E7D32;
+    --secondary: #66BB6A;
+    --accent: #FFD600;
+    --dark-tone: #1B5E20;
+    --light-tone: #E8F5E9;
+}
+
+/* B.Sc Colors - Scientific, Balanced Tone */
+.bsc-theme {
+    --primary: #00695C; /* Jade */
+    --secondary: #4DB6AC; /* Light Jade */
+    --accent: #FFEE58; /* Lemon */
+    --dark-tone: #004940;
+    --light-tone: #E0F2F1;
+}
+
+/* B.Sc Branch-specific Colors */
+/* B.Sc Computer Science */
+.bsc-cs-theme {
+    --primary: #1976D2;
+    --secondary: #64B5F6;
+    --accent: #FFCA28;
+    --dark-tone: #1565C0;
+    --light-tone: #E3F2FD;
+}
+
+/* B.Sc Mathematics */
+.bsc-math-theme {
+    --primary: #1565C0;
+    --secondary: #90CAF9;
+    --accent: #F9A825;
+    --dark-tone: #0D47A1;
+    --light-tone: #E3F2FD;
+}
+
+/* B.Sc Physics */
+.bsc-physics-theme {
+    --primary: #283593;
+    --secondary: #7986CB;
+    --accent: #FFC107;
+    --dark-tone: #1A237E;
+    --light-tone: #E8EAF6;
+}
+
+/* B.Sc Chemistry */
+.bsc-chemistry-theme {
+    --primary: #4527A0;
+    --secondary: #B39DDB;
+    --accent: #FFB74D;
+    --dark-tone: #311B92;
+    --light-tone: #EDE7F6;
+}
+
+/* B.Sc Statistics */
+.bsc-statistics-theme {
+    --primary: #3949AB;
+    --secondary: #9FA8DA;
+    --accent: #FF8F00;
+    --dark-tone: #283593;
+    --light-tone: #E8EAF6;
+}
+
+/* B.Sc Biotechnology */
+.bsc-biotech-theme {
+    --primary: #00897B;
+    --secondary: #4DB6AC;
+    --accent: #FFD600;
+    --dark-tone: #00796B;
+    --light-tone: #E0F2F1;
+}
+
+/* B.Sc Microbiology */
+.bsc-microbio-theme {
+    --primary: #00796B;
+    --secondary: #80CBC4;
+    --accent: #FFA726;
+    --dark-tone: #00695C;
+    --light-tone: #E0F2F1;
+}
+
+/* B.Sc Food Technology */
+.bsc-food-theme {
+    --primary: #2E7D32;
+    --secondary: #81C784;
+    --accent: #FF7043;
+    --dark-tone: #1B5E20;
+    --light-tone: #E8F5E9;
+}
+
+/* B.Sc Agriculture */
+.bsc-agriculture-theme {
+    --primary: #1B5E20;
+    --secondary: #66BB6A;
+    --accent: #FFB300;
+    --dark-tone: #0A3B13;
+    --light-tone: #E8F5E9;
+}
+
+/* B.Sc Environmental Science */
+.bsc-environmental-theme {
+    --primary: #00695C;
+    --secondary: #26A69A;
+    --accent: #FDD835;
+    --dark-tone: #004D40;
+    --light-tone: #E0F2F1;
+}
+
+/* Stream Card Styling on Homepage */
+.stream-card.btech-theme {
+    background-color: #024950; /* Teal */
+}
+
+.stream-card.mtech-theme {
+    background-color: #0FAAAF; /* Aqua */
+}
+
+.stream-card.diploma-theme {
+    background-color: #964734; /* Rust */
+}
+
+.stream-card.pharmacy-theme {
+    background-color: #4B0082; /* Indigo */
+}
+
+.stream-card.mba-theme {
+    background-color: #1A237E; /* Deep Indigo */
+}
+
+.stream-card.bsc-theme {
+    background-color: #00695C; /* Jade */
+}
+
+/* Apply theme colors to branch cards */
+/* B.Sc Branch Cards */
+.bsc-cs-theme .branch-card-header {
+    background-color: #1E90FF;
+    color: #FFFFFF;
+}
+.bsc-cs-theme.branch-card:hover {
+    border-color: #63B8FF;
+}
+.bsc-cs-theme .explore {
+    color: #63B8FF;
+}
+
+.bsc-biotech-theme .branch-card-header {
+    background-color: #32CD32;
+    color: #FFFFFF;
+}
+.bsc-biotech-theme.branch-card:hover {
+    border-color: #66FF66;
+}
+.bsc-biotech-theme .explore {
+    color: #66FF66;
+}
+
+.bsc-microbio-theme .branch-card-header {
+    background-color: #8B4513;
+    color: #FFFFFF;
+}
+.bsc-microbio-theme.branch-card:hover {
+    border-color: #CD853F;
+}
+.bsc-microbio-theme .explore {
+    color: #CD853F;
+}
+
+.bsc-physics-theme .branch-card-header {
+    background-color: #2F4F4F;
+    color: #FFFFFF;
+}
+.bsc-physics-theme.branch-card:hover {
+    border-color: #778899;
+}
+.bsc-physics-theme .explore {
+    color: #778899;
+}
+
+.bsc-chemistry-theme .branch-card-header {
+    background-color: #DC143C;
+    color: #FFFFFF;
+}
+.bsc-chemistry-theme.branch-card:hover {
+    border-color: #FF6A6A;
+}
+.bsc-chemistry-theme .explore {
+    color: #FF6A6A;
+}
+
+.bsc-math-theme .branch-card-header {
+    background-color: #4B0082;
+    color: #FFFFFF;
+}
+.bsc-math-theme.branch-card:hover {
+    border-color: #9370DB;
+}
+.bsc-math-theme .explore {
+    color: #9370DB;
+}
+
+/* MBA Branch Cards */
+.mba-finance-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.mba-finance-theme.branch-card:hover {
+    border-color: var(--accent);
+}
+
+.mba-finance-theme .explore {
+    color: var(--accent);
+}
+
+.mba-marketing-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.mba-marketing-theme.branch-card:hover {
+    border-color: var(--accent);
+}
+
+.mba-marketing-theme .explore {
+    color: var(--accent);
+}
+
+.mba-hr-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.mba-hr-theme.branch-card:hover {
+    border-color: var(--accent);
+}
+
+.mba-hr-theme .explore {
+    color: var(--accent);
+}
+
+.mba-operations-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.mba-operations-theme.branch-card:hover {
+    border-color: var(--accent);
+}
+
+.mba-operations-theme .explore {
+    color: var(--accent);
+}
+
+.mba-international-theme .branch-card-header {
+    background-color: #B22222;
+    color: #FFFFFF;
+}
+.mba-international-theme.branch-card:hover {
+    border-color: #FA8072;
+}
+.mba-international-theme .explore {
+    color: #FA8072;
+}
+
+.mba-analytics-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.mba-analytics-theme.branch-card:hover {
+    border-color: var(--accent);
+}
+
+.mba-analytics-theme .explore {
+    color: var(--accent);
+}
+
+/* Diploma Branch Cards */
+.diploma-mech-theme .branch-card-header {
+    background-color: #B8860B;
+    color: #FFFFFF;
+}
+.diploma-mech-theme.branch-card:hover {
+    border-color: #FFD700;
+}
+.diploma-mech-theme .explore {
+    color: #FFD700;
+}
+
+.diploma-civil-theme .branch-card-header {
+    background-color: #A0522D;
+    color: #FFFFFF;
+}
+.diploma-civil-theme.branch-card:hover {
+    border-color: #DEB887;
+}
+.diploma-civil-theme .explore {
+    color: #DEB887;
+}
+
+.diploma-electrical-theme .branch-card-header {
+    background-color: #000080;
+    color: #FFFFFF;
+}
+.diploma-electrical-theme.branch-card:hover {
+    border-color: #4169E1;
+}
+.diploma-electrical-theme .explore {
+    color: #4169E1;
+}
+
+.diploma-computer-theme .branch-card-header {
+    background-color: #4682B4;
+    color: #FFFFFF;
+}
+.diploma-computer-theme.branch-card:hover {
+    border-color: #87CEEB;
+}
+.diploma-computer-theme .explore {
+    color: #87CEEB;
+}
+
+/* Branch Card Link Styles */
+.branch-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.branch-card-link:hover {
+    transform: translateY(-5px);
+}
+
+.branch-card .explore {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.branch-card:hover .explore {
+    opacity: 1;
+}
+
+.diploma-ece-theme .branch-card-header {
+    background-color: #800080;
+    color: #FFFFFF;
+}
+.diploma-ece-theme.branch-card:hover {
+    border-color: #DA70D6;
+}
+.diploma-ece-theme .explore {
+    color: #DA70D6;
+}
+
+/* Pharmacy Branch Cards */
+.pharmacy-pharmaceutics-theme .branch-card-header {
+    background-color: #6A5ACD;
+    color: #FFFFFF;
+}
+.pharmacy-pharmaceutics-theme.branch-card:hover {
+    border-color: #7B68EE;
+}
+.pharmacy-pharmaceutics-theme .explore {
+    color: #7B68EE;
+}
+
+.pharmacy-pharmacology-theme .branch-card-header {
+    background-color: #008080;
+    color: #FFFFFF;
+}
+.pharmacy-pharmacology-theme.branch-card:hover {
+    border-color: #20B2AA;
+}
+.pharmacy-pharmacology-theme .explore {
+    color: #20B2AA;
+}
+
+.pharmacy-chemistry-theme .branch-card-header {
+    background-color: #DC143C;
+    color: #FFFFFF;
+}
+.pharmacy-chemistry-theme.branch-card:hover {
+    border-color: #FF4C61;
+}
+.pharmacy-chemistry-theme .explore {
+    color: #FF4C61;
+}
+
+.pharmacy-pharmacognosy-theme .branch-card-header {
+    background-color: #2E8B57;
+    color: #FFFFFF;
+}
+.pharmacy-pharmacognosy-theme.branch-card:hover {
+    border-color: #3CB371;
+}
+.pharmacy-pharmacognosy-theme .explore {
+    color: #3CB371;
+}
+
+.pharmacy-clinical-theme .branch-card-header {
+    background-color: #4169E1;
+    color: #FFFFFF;
+}
+.pharmacy-clinical-theme.branch-card:hover {
+    border-color: #6495ED;
+}
+.pharmacy-clinical-theme .explore {
+    color: #6495ED;
+}
+
+.pharmacy-analysis-theme .branch-card-header {
+    background-color: #FF8C00;
+    color: #FFFFFF;
+}
+.pharmacy-analysis-theme.branch-card:hover {
+    border-color: #FFA500;
+}
+.pharmacy-analysis-theme .explore {
+    color: #FFA500;
+}
+
+.pharmacy-industrial-theme .branch-card-header {
+    background-color: #8B008B;
+    color: #FFFFFF;
+}
+.pharmacy-industrial-theme.branch-card:hover {
+    border-color: #BA55D3;
+}
+.pharmacy-industrial-theme .explore {
+    color: #BA55D3;
+}
+.btech-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.btech-theme .branch-card:hover {
+    border-color: var(--accent);
+}
+
+.btech-theme .explore {
+    color: var(--accent);
+}
+
+/* Branch-specific styling */
+/* CSE Branch */
+.cse-theme .branch-card-header {
+    background-color: #024950;
+    color: white;
+}
+
+.cse-theme.branch-card:hover {
+    border-color: #0FAAAF;
+}
+
+.cse-theme .explore {
+    color: #0FAAAF;
+}
+
+/* IT Branch */
+.it-theme .branch-card-header {
+    background-color: #0F4C81;
+    color: white;
+}
+
+.it-theme.branch-card:hover {
+    border-color: #FF9F1C;
+}
+
+.it-theme .explore {
+    color: #FF9F1C;
+}
+
+/* CSML Branch */
+.csml-theme .branch-card-header {
+    background-color: #1E3D59;
+    color: white;
+}
+
+.csml-theme.branch-card:hover {
+    border-color: #FFC857;
+}
+
+.csml-theme .explore {
+    color: #FFC857;
+}
+
+/* CSAI Branch */
+.csai-theme .branch-card-header {
+    background-color: #283593;
+    color: white;
+}
+
+.csai-theme.branch-card:hover {
+    border-color: #FF7043;
+}
+
+.csai-theme .explore {
+    color: #FF7043;
+}
+
+/* CSDS Branch */
+.csds-theme .branch-card-header {
+    background-color: #4A148C;
+    color: white;
+}
+
+.csds-theme.branch-card:hover {
+    border-color: #F48FB1;
+}
+
+.csds-theme .explore {
+    color: #F48FB1;
+}
+
+/* CSCS Branch */
+.cscs-theme .branch-card-header {
+    background-color: #263238;
+    color: white;
+}
+
+.cscs-theme.branch-card:hover {
+    border-color: #FFD600;
+}
+
+.cscs-theme .explore {
+    color: #FFD600;
+}
+
+/* AIML Branch */
+.aiml-theme .branch-card-header {
+    background-color: #00695C;
+    color: white;
+}
+
+.aiml-theme.branch-card:hover {
+    border-color: #FF6F00;
+}
+
+.aiml-theme .explore {
+    color: #FF6F00;
+}
+
+/* AIDS Branch */
+.aids-theme .branch-card-header {
+    background-color: #4527A0;
+    color: white;
+}
+
+.aids-theme.branch-card:hover {
+    border-color: #FFCA28;
+}
+
+.aids-theme .explore {
+    color: #FFCA28;
+}
+
+/* ECE Branch */
+.ece-theme .branch-card-header {
+    background-color: #37474F;
+    color: white;
+}
+
+.ece-theme.branch-card:hover {
+    border-color: #FF8A65;
+}
+
+.ece-theme .explore {
+    color: #FF8A65;
+}
+
+/* EEE Branch */
+.eee-theme .branch-card-header {
+    background-color: #1B5E20;
+    color: white;
+}
+
+.eee-theme.branch-card:hover {
+    border-color: #FFD54F;
+}
+
+.eee-theme .explore {
+    color: #FFD54F;
+}
+
+/* MECH Branch */
+.mech-theme .branch-card-header {
+    background-color: #546E7A;
+    color: white;
+}
+
+.mech-theme.branch-card:hover {
+    border-color: #F9A825;
+}
+
+.mech-theme .explore {
+    color: #F9A825;
+}
+
+/* CIVIL Branch */
+.civil-theme .branch-card-header {
+    background-color: #5D4037;
+    color: white;
+}
+
+.civil-theme.branch-card:hover {
+    border-color: #FFB74D;
+}
+
+.civil-theme .explore {
+    color: #FFB74D;
+}
+
+/* M.Tech Branch Cards */
+.mtech-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.mtech-theme .branch-card:hover {
+    border-color: var(--accent);
+}
+
+.mtech-theme .explore {
+    color: var(--accent);
+}
+
+/* M.Tech Branch-specific Cards */
+/* CSE */
+.mtech-cse-theme .branch-card-header {
+    background-color: #2E7D32;
+    color: white;
+}
+
+.mtech-cse-theme.branch-card:hover {
+    border-color: #FF7043;
+}
+
+.mtech-cse-theme .explore {
+    color: #FF7043;
+}
+
+/* AI & ML */
+.mtech-aiml-theme .branch-card-header {
+    background-color: #1B5E20;
+    color: white;
+}
+
+.mtech-aiml-theme.branch-card:hover {
+    border-color: #FFB300;
+}
+
+.mtech-aiml-theme .explore {
+    color: #FFB300;
+}
+
+/* Cyber Security */
+.mtech-cybersec-theme .branch-card-header {
+    background-color: #004D40;
+    color: white;
+}
+
+.mtech-cybersec-theme.branch-card:hover {
+    border-color: #FFC107;
+}
+
+.mtech-cybersec-theme .explore {
+    color: #FFC107;
+}
+
+/* Data Science */
+.mtech-datascience-theme .branch-card-header {
+    background-color: #33691E;
+    color: white;
+}
+
+.mtech-datascience-theme.branch-card:hover {
+    border-color: #F9A825;
+}
+
+.mtech-datascience-theme .explore {
+    color: #F9A825;
+}
+
+/* Embedded Systems */
+.mtech-embedded-theme .branch-card-header {
+    background-color: #006064;
+    color: white;
+}
+
+.mtech-embedded-theme.branch-card:hover {
+    border-color: #FF8A65;
+}
+
+.mtech-embedded-theme .explore {
+    color: #FF8A65;
+}
+
+/* VLSI Design */
+.mtech-vlsi-theme .branch-card-header {
+    background-color: #37474F;
+    color: white;
+}
+
+.mtech-vlsi-theme.branch-card:hover {
+    border-color: #FFD600;
+}
+
+.mtech-vlsi-theme .explore {
+    color: #FFD600;
+}
+
+/* Power Systems */
+.mtech-power-theme .branch-card-header {
+    background-color: #263238;
+    color: white;
+}
+
+.mtech-power-theme.branch-card:hover {
+    border-color: #FFAB00;
+}
+
+.mtech-power-theme .explore {
+    color: #FFAB00;
+}
+
+/* Thermal Engineering */
+.mtech-thermal-theme .branch-card-header {
+    background-color: #4E342E;
+    color: white;
+}
+
+.mtech-thermal-theme.branch-card:hover {
+    border-color: #FF6F00;
+}
+
+.mtech-thermal-theme .explore {
+    color: #FF6F00;
+}
+
+/* Structural Engineering */
+.mtech-structural-theme .branch-card-header {
+    background-color: #3E2723;
+    color: white;
+}
+
+.mtech-structural-theme.branch-card:hover {
+    border-color: #FFB74D;
+}
+
+.mtech-structural-theme .explore {
+    color: #FFB74D;
+}
+
+/* Machine Design */
+.mtech-machinedesign-theme .branch-card-header {
+    background-color: #1A237E;
+    color: white;
+}
+
+.mtech-machinedesign-theme.branch-card:hover {
+    border-color: #FF5722;
+}
+
+.mtech-machinedesign-theme .explore {
+    color: #FF5722;
+}
+
+/* Diploma Branch Cards */
+.diploma-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.diploma-theme .branch-card:hover {
+    border-color: var(--accent);
+}
+
+.diploma-theme .explore {
+    color: var(--accent);
+}
+
+/* Diploma Branch-specific Cards */
+/* Civil Engineering (DCE) */
+.diploma-civil-theme .branch-card-header {
+    background-color: #964734;
+    color: white;
+}
+
+.diploma-civil-theme.branch-card:hover {
+    border-color: #F9A825;
+}
+
+.diploma-civil-theme .explore {
+    color: #F9A825;
+}
+
+/* Mechanical Engineering (DME) */
+.diploma-mech-theme .branch-card-header {
+    background-color: #5D4037;
+    color: white;
+}
+
+.diploma-mech-theme.branch-card:hover {
+    border-color: #FF8F00;
+}
+
+.diploma-mech-theme .explore {
+    color: #FF8F00;
+}
+
+/* Electrical Engineering (DEE) */
+.diploma-electrical-theme .branch-card-header {
+    background-color: #6D4C41;
+    color: white;
+}
+
+.diploma-electrical-theme.branch-card:hover {
+    border-color: #F57C00;
+}
+
+.diploma-electrical-theme .explore {
+    color: #F57C00;
+}
+
+/* Electronics & Comm (DECE) */
+.diploma-ece-theme .branch-card-header {
+    background-color: #4E342E;
+    color: white;
+}
+
+.diploma-ece-theme.branch-card:hover {
+    border-color: #FF7043;
+}
+
+.diploma-ece-theme .explore {
+    color: #FF7043;
+}
+
+/* Computer Engineering */
+.diploma-computer-theme .branch-card-header {
+    background-color: #3E2723;
+    color: white;
+}
+
+.diploma-computer-theme.branch-card:hover {
+    border-color: #FFA726;
+}
+
+.diploma-computer-theme .explore {
+    color: #FFA726;
+}
+
+/* Information Technology */
+.diploma-it-theme .branch-card-header {
+    background-color: #5E35B1;
+    color: white;
+}
+
+.diploma-it-theme.branch-card:hover {
+    border-color: #FFB74D;
+}
+
+.diploma-it-theme .explore {
+    color: #FFB74D;
+}
+
+/* Automobile Engineering */
+.diploma-automobile-theme .branch-card-header {
+    background-color: #37474F;
+    color: white;
+}
+
+.diploma-automobile-theme.branch-card:hover {
+    border-color: #FFD600;
+}
+
+.diploma-automobile-theme .explore {
+    color: #FFD600;
+}
+
+/* Mechatronics */
+.diploma-mechatronics-theme .branch-card-header {
+    background-color: #0277BD;
+    color: white;
+}
+
+.diploma-mechatronics-theme.branch-card:hover {
+    border-color: #FFC107;
+}
+
+.diploma-mechatronics-theme .explore {
+    color: #FFC107;
+}
+
+/* Mining Engineering */
+.diploma-mining-theme .branch-card-header {
+    background-color: #455A64;
+    color: white;
+}
+
+.diploma-mining-theme.branch-card:hover {
+    border-color: #FFCA28;
+}
+
+.diploma-mining-theme .explore {
+    color: #FFCA28;
+}
+
+/* Tool and Die Making */
+.diploma-tool-theme .branch-card-header {
+    background-color: #546E7A;
+    color: white;
+}
+
+.diploma-tool-theme.branch-card:hover {
+    border-color: #FFEE58;
+}
+
+.diploma-tool-theme .explore {
+    color: #FFEE58;
+}
+
+/* Pharmacy Branch Cards */
+.pharmacy-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.pharmacy-theme .branch-card:hover {
+    border-color: var(--accent);
+}
+
+.pharmacy-theme .explore {
+    color: var(--accent);
+}
+
+/* Pharmacy Branch-specific Cards */
+/* B.Pharmacy */
+.pharmacy-bpharm-theme .branch-card-header {
+    background-color: #00695C;
+    color: white;
+}
+
+.pharmacy-bpharm-theme.branch-card:hover {
+    border-color: #AED581;
+}
+
+.pharmacy-bpharm-theme .explore {
+    color: #AED581;
+}
+
+/* D.Pharmacy */
+.pharmacy-dpharm-theme .branch-card-header {
+    background-color: #004D40;
+    color: white;
+}
+
+.pharmacy-dpharm-theme.branch-card:hover {
+    border-color: #C5E1A5;
+}
+
+.pharmacy-dpharm-theme .explore {
+    color: #C5E1A5;
+}
+
+/* Pharmacology */
+.pharmacy-pharmacology-theme .branch-card-header {
+    background-color: #1B5E20;
+    color: white;
+}
+
+.pharmacy-pharmacology-theme.branch-card:hover {
+    border-color: #FFB300;
+}
+
+.pharmacy-pharmacology-theme .explore {
+    color: #FFB300;
+}
+
+/* Pharmaceutics */
+.pharmacy-pharmaceutics-theme .branch-card-header {
+    background-color: #33691E;
+    color: white;
+}
+
+.pharmacy-pharmaceutics-theme.branch-card:hover {
+    border-color: #FF7043;
+}
+
+.pharmacy-pharmaceutics-theme .explore {
+    color: #FF7043;
+}
+
+/* Pharmaceutical Chemistry */
+.pharmacy-chemistry-theme .branch-card-header {
+    background-color: #2E7D32;
+    color: white;
+}
+
+.pharmacy-chemistry-theme.branch-card:hover {
+    border-color: #FFA726;
+}
+
+.pharmacy-chemistry-theme .explore {
+    color: #FFA726;
+}
+
+/* Quality Assurance */
+.pharmacy-qa-theme .branch-card-header {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pharmacy-qa-theme.branch-card:hover {
+    border-color: #FF8A65;
+}
+
+.pharmacy-qa-theme .explore {
+    color: #FF8A65;
+}
+
+/* Pharmacognosy */
+.pharmacy-pharmacognosy-theme .branch-card-header {
+    background-color: #388E3C;
+    color: white;
+}
+
+.pharmacy-pharmacognosy-theme.branch-card:hover {
+    border-color: #FFD600;
+}
+
+.pharmacy-pharmacognosy-theme .explore {
+    color: #FFD600;
+}
+
+/* Industrial Pharmacy */
+.pharmacy-industrial-theme .branch-card-header {
+    background-color: #00796B;
+    color: white;
+}
+
+.pharmacy-industrial-theme.branch-card:hover {
+    border-color: #FFAB00;
+}
+
+.pharmacy-industrial-theme .explore {
+    color: #FFAB00;
+}
+
+/* Clinical Pharmacy */
+.pharmacy-clinical-theme .branch-card-header {
+    background-color: #00897B;
+    color: white;
+}
+
+.pharmacy-clinical-theme.branch-card:hover {
+    border-color: #FFC107;
+}
+
+.pharmacy-clinical-theme .explore {
+    color: #FFC107;
+}
+
+/* Pharmaceutical Analysis */
+.pharmacy-analysis-theme .branch-card-header {
+    background-color: #43A047;
+    color: white;
+}
+
+.pharmacy-analysis-theme.branch-card:hover {
+    border-color: #FFCA28;
+}
+
+.pharmacy-analysis-theme .explore {
+    color: #FFCA28;
+}
+
+/* MBA Branch Cards */
+.mba-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.mba-theme .branch-card:hover {
+    border-color: var(--accent);
+}
+
+.mba-theme .explore {
+    color: var(--accent);
+}
+
+/* MBA Branch-specific Cards */
+/* Finance */
+.mba-finance-theme .branch-card-header {
+    background-color: #4527A0;
+    color: white;
+}
+
+.mba-finance-theme.branch-card:hover {
+    border-color: #FFB300;
+}
+
+.mba-finance-theme .explore {
+    color: #FFB300;
+}
+
+/* Marketing */
+.mba-marketing-theme .branch-card-header {
+    background-color: #5E35B1;
+    color: white;
+}
+
+.mba-marketing-theme.branch-card:hover {
+    border-color: #FDD835;
+}
+
+.mba-marketing-theme .explore {
+    color: #FDD835;
+}
+
+/* Human Resource Management */
+.mba-hr-theme .branch-card-header {
+    background-color: #6A1B9A;
+    color: white;
+}
+
+.mba-hr-theme.branch-card:hover {
+    border-color: #FFCA28;
+}
+
+.mba-hr-theme .explore {
+    color: #FFCA28;
+}
+
+/* Operations Management */
+.mba-operations-theme .branch-card-header {
+    background-color: #512DA8;
+    color: white;
+}
+
+.mba-operations-theme.branch-card:hover {
+    border-color: #FF8A65;
+}
+
+.mba-operations-theme .explore {
+    color: #FF8A65;
+}
+
+/* Business Analytics */
+.mba-analytics-theme .branch-card-header {
+    background-color: #283593;
+    color: white;
+}
+
+.mba-analytics-theme.branch-card:hover {
+    border-color: #FFA000;
+}
+
+.mba-analytics-theme .explore {
+    color: #FFA000;
+}
+
+/* International Business */
+.mba-international-theme .branch-card-header {
+    background-color: #1565C0;
+    color: white;
+}
+
+.mba-international-theme.branch-card:hover {
+    border-color: #F9A825;
+}
+
+.mba-international-theme .explore {
+    color: #F9A825;
+}
+
+/* IT & Systems */
+.mba-it-theme .branch-card-header {
+    background-color: #0277BD;
+    color: white;
+}
+
+.mba-it-theme.branch-card:hover {
+    border-color: #FF7043;
+}
+
+.mba-it-theme .explore {
+    color: #FF7043;
+}
+
+/* Retail Management */
+.mba-retail-theme .branch-card-header {
+    background-color: #AD1457;
+    color: white;
+}
+
+.mba-retail-theme.branch-card:hover {
+    border-color: #FFEE58;
+}
+
+.mba-retail-theme .explore {
+    color: #FFEE58;
+}
+
+/* Healthcare & Hospital Management */
+.mba-healthcare-theme .branch-card-header {
+    background-color: #00695C;
+    color: white;
+}
+
+.mba-healthcare-theme.branch-card:hover {
+    border-color: #FFB74D;
+}
+
+.mba-healthcare-theme .explore {
+    color: #FFB74D;
+}
+
+/* Supply Chain Management */
+.mba-supplychain-theme .branch-card-header {
+    background-color: #2E7D32;
+    color: white;
+}
+
+.mba-supplychain-theme.branch-card:hover {
+    border-color: #FFD600;
+}
+
+.mba-supplychain-theme .explore {
+    color: #FFD600;
+}
+
+/* B.Sc Branch Cards */
+.bsc-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.bsc-theme .branch-card:hover {
+    border-color: var(--accent);
+}
+
+.bsc-theme .explore {
+    color: var(--accent);
+}
+
+/* B.Sc Branch-specific Cards */
+/* B.Sc Computer Science */
+.bsc-cs-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.bsc-cs-theme.branch-card:hover {
+    border-color: var(--accent);
+}
+
+.bsc-cs-theme .explore {
+    color: var(--accent);
+}
+
+/* B.Sc Mathematics */
+.bsc-math-theme .branch-card-header {
+    background-color: #1565C0;
+    color: white;
+}
+
+.bsc-math-theme.branch-card:hover {
+    border-color: #F9A825;
+}
+
+.bsc-math-theme .explore {
+    color: #F9A825;
+}
+
+/* B.Sc Physics */
+.bsc-physics-theme .branch-card-header {
+    background-color: #283593;
+    color: white;
+}
+
+.bsc-physics-theme.branch-card:hover {
+    border-color: #FFC107;
+}
+
+.bsc-physics-theme .explore {
+    color: #FFC107;
+}
+
+/* B.Sc Chemistry */
+.bsc-chemistry-theme .branch-card-header {
+    background-color: #4527A0;
+    color: white;
+}
+
+.bsc-chemistry-theme.branch-card:hover {
+    border-color: #FFB74D;
+}
+
+.bsc-chemistry-theme .explore {
+    color: #FFB74D;
+}
+
+/* B.Sc Statistics */
+.bsc-statistics-theme .branch-card-header {
+    background-color: #3949AB;
+    color: white;
+}
+
+.bsc-statistics-theme.branch-card:hover {
+    border-color: #FF8F00;
+}
+
+.bsc-statistics-theme .explore {
+    color: #FF8F00;
+}
+
+/* B.Sc Biotechnology */
+.bsc-biotech-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.bsc-biotech-theme.branch-card:hover {
+    border-color: var(--accent);
+}
+
+.bsc-biotech-theme .explore {
+    color: var(--accent);
+}
+
+/* B.Sc Microbiology */
+.bsc-microbio-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.bsc-microbio-theme.branch-card:hover {
+    border-color: var(--accent);
+}
+
+.bsc-microbio-theme .explore {
+    color: var(--accent);
+}
+
+/* B.Sc Food Technology */
+.bsc-food-theme .branch-card-header {
+    background-color: #2E7D32;
+    color: white;
+}
+
+.bsc-food-theme.branch-card:hover {
+    border-color: #FF7043;
+}
+
+.bsc-food-theme .explore {
+    color: #FF7043;
+}
+
+/* B.Sc Agriculture */
+.bsc-agriculture-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.bsc-agriculture-theme.branch-card:hover {
+    border-color: var(--accent);
+}
+
+.bsc-agriculture-theme .explore {
+    color: var(--accent);
+}
+
+/* B.Sc Environmental Science */
+.bsc-environmental-theme .branch-card-header {
+    background-color: var(--primary);
+    color: white;
+}
+
+.bsc-environmental-theme.branch-card:hover {
+    border-color: var(--accent);
+}
+
+.bsc-environmental-theme .explore {
+    color: #FDD835;
+}
+
+/* Remove BCA theme as it's not part of the new color scheme */
+
+/* End of branch card styling */
+
+
+
+/* 5x5 Grid Layout for Branch Cards */
+.branch-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+/* Responsive adjustments for the 5x5 grid */
+@media (max-width: 1200px) {
+    .branch-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .branch-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .branch-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .branch-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Additional styling for branch cards */
+.branch-card {
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.branch-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.explore {
+    display: inline-block;
+    font-weight: 600;
+    margin-top: auto;
+    transition: all 0.3s ease;
+}
+
+.branch-card:hover .explore {
+    transform: translateX(5px);
+}

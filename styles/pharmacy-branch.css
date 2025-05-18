@@ -1,0 +1,52 @@
+/* Pharmacy Branch Cards Grid Layout */
+.branch-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 20px; /* Space between cards */
+    margin: 30px 0;
+}
+
+.branch-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.branch-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.branch-card-header {
+    padding: 15px;
+    color: white;
+}
+
+.branch-card-body {
+    padding: 15px;
+    background: white;
+    flex-grow: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .branch-cards {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .branch-cards {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .branch-cards {
+        grid-template-columns: 1fr; /* 1 column on mobile */
+    }
+}

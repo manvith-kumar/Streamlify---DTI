@@ -1,0 +1,73 @@
+/* M.Tech Job Role Theme Colors */
+
+/* AI & ML Theme */
+.mtech-aiml-theme {
+    --primary-color: #3498db;
+    --secondary-color: #2980b9;
+    --accent-color: #1abc9c;
+    --text-color: #333;
+    --light-bg: #e8f4fc;
+}
+
+/* Data Science Theme */
+.mtech-datascience-theme {
+    --primary-color: #9b59b6;
+    --secondary-color: #8e44ad;
+    --accent-color: #3498db;
+    --text-color: #333;
+    --light-bg: #f5eef8;
+}
+
+/* Cybersecurity Theme */
+.mtech-cybersec-theme {
+    --primary-color: #34495e;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --light-bg: #ebedef;
+}
+
+/* VLSI Theme */
+.mtech-vlsi-theme {
+    --primary-color: #e67e22;
+    --secondary-color: #d35400;
+    --accent-color: #f1c40f;
+    --text-color: #333;
+    --light-bg: #fdf2e9;
+}
+
+/* Embedded Systems Theme */
+.mtech-embedded-theme {
+    --primary-color: #16a085;
+    --secondary-color: #1abc9c;
+    --accent-color: #27ae60;
+    --text-color: #333;
+    --light-bg: #e8f8f5;
+}
+
+/* Cloud Computing Theme */
+.mtech-cloud-theme {
+    --primary-color: #3498db;
+    --secondary-color: #2980b9;
+    --accent-color: #ecf0f1;
+    --text-color: #333;
+    --light-bg: #e8f4fc;
+}
+
+/* Robotics Theme */
+.mtech-robotics-theme {
+    --primary-color: #e74c3c;
+    --secondary-color: #c0392b;
+    --accent-color: #7f8c8d;
+    --text-color: #333;
+    --light-bg: #fadbd8;
+}
+
+/* Wireless Networks Theme */
+.mtech-wireless-theme {
+    --primary-color: #2ecc71;
+    --secondary-color: #27ae60;
+    --accent-color: #3498db;
+    --text-color: #333;
+    --light-bg: #eafaf1;
+}

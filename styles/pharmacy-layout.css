@@ -1,0 +1,52 @@
+/* Pharmacy Branch Layout Styles */
+
+/* Override branch cards layout for pharmacy page */
+.page-content .branch-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+/* Adjust branch card width for single row layout */
+.page-content .branch-card {
+    width: 220px;
+    min-height: 200px;
+    flex-shrink: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .page-content .branch-card {
+        width: 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .page-content .branch-cards {
+        flex-wrap: wrap;
+    }
+    
+    .page-content .branch-card {
+        width: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-content .branch-cards {
+        flex-wrap: wrap;
+    }
+    
+    .page-content .branch-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .page-content .branch-card {
+        width: 100%;
+    }
+}

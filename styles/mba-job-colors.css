@@ -1,0 +1,73 @@
+/* MBA Program Color Themes */
+
+/* Main MBA Theme */
+.mba-theme {
+    --primary: #1a237e; /* Deep Blue */
+    --secondary: #3949ab; /* Medium Blue */
+    --accent: #ff9800; /* Orange */
+    --dark-tone: #0d1257; /* Darker Blue */
+    --light-tone: #e8eaf6; /* Light Blue */
+}
+
+/* Finance Theme */
+.finance-theme {
+    --primary: #1a237e; /* Deep Blue */
+    --secondary: #3949ab; /* Medium Blue */
+    --accent: #ffc107; /* Amber */
+    --dark-tone: #0d1257; /* Darker Blue */
+    --light-tone: #e8eaf6; /* Light Blue */
+}
+
+/* Marketing Theme */
+.marketing-theme {
+    --primary: #283593; /* Indigo */
+    --secondary: #5c6bc0; /* Light Indigo */
+    --accent: #ff5722; /* Deep Orange */
+    --dark-tone: #1a237e; /* Dark Indigo */
+    --light-tone: #e8eaf6; /* Light Indigo */
+}
+
+/* HRM Theme */
+.hrm-theme {
+    --primary: #303f9f; /* Indigo */
+    --secondary: #7986cb; /* Light Indigo */
+    --accent: #4caf50; /* Green */
+    --dark-tone: #1a237e; /* Dark Indigo */
+    --light-tone: #e8eaf6; /* Light Indigo */
+}
+
+/* Operations Management Theme */
+.operations-theme {
+    --primary: #3949ab; /* Blue */
+    --secondary: #7986cb; /* Light Blue */
+    --accent: #ff9800; /* Orange */
+    --dark-tone: #283593; /* Dark Blue */
+    --light-tone: #e8eaf6; /* Light Blue */
+}
+
+/* Business Analytics Theme */
+.analytics-theme {
+    --primary: #3f51b5; /* Indigo */
+    --secondary: #7986cb; /* Light Indigo */
+    --accent: #00bcd4; /* Cyan */
+    --dark-tone: #303f9f; /* Dark Indigo */
+    --light-tone: #e8eaf6; /* Light Indigo */
+}
+
+/* International Business Theme */
+.international-theme {
+    --primary: #5c6bc0; /* Light Indigo */
+    --secondary: #9fa8da; /* Lighter Indigo */
+    --accent: #ff9800; /* Orange */
+    --dark-tone: #3f51b5; /* Indigo */
+    --light-tone: #e8eaf6; /* Light Indigo */
+}
+
+/* IT/Systems Management Theme */
+.it-systems-theme {
+    --primary: #3f51b5; /* Indigo */
+    --secondary: #7986cb; /* Light Indigo */
+    --accent: #00bcd4; /* Cyan */
+    --dark-tone: #303f9f; /* Dark Indigo */
+    --light-tone: #e8eaf6; /* Light Indigo */
+}

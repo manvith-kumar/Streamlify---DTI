@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamlify - Find Your Stream</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/stream-colors.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Streamlify</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="search-container">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="search-results" id="searchResults">
+            <ul>
+                <!-- B.Tech AIDS -->
+                <li><a href="btech/aids/business-analyst.html">Business Analyst - B.Tech AIDS</a></li>
+                <li><a href="btech/aids/data-engineer.html">Data Engineer - B.Tech AIDS</a></li>
+                <li><a href="btech/aids/data-scientist.html">Data Scientist - B.Tech AIDS</a></li>
+                <li><a href="btech/aids/machine-learning-specialist.html">Machine Learning Specialist - B.Tech AIDS</a></li>
+
+                <!-- B.Tech AIML -->
+                <li><a href="btech/aiml/ai-researcher.html">AI Researcher - B.Tech AIML</a></li>
+                <li><a href="btech/aiml/data-scientist.html">Data Scientist - B.Tech AIML</a></li>
+                <li><a href="btech/aiml/machine-learning-engineer.html">Machine Learning Engineer - B.Tech AIML</a></li>
+                <li><a href="btech/aiml/nlp-specialist.html">NLP Specialist - B.Tech AIML</a></li>
+
+                <!-- B.Tech Civil -->
+                <li><a href="btech/civil/environmental-engineer.html">Environmental Engineer - B.Tech Civil</a></li>
+                <li><a href="btech/civil/geotechnical-engineer.html">Geotechnical Engineer - B.Tech Civil</a></li>
+                <li><a href="btech/civil/structural-engineer.html">Structural Engineer - B.Tech Civil</a></li>
+                <li><a href="btech/civil/transportation-engineer.html">Transportation Engineer - B.Tech Civil</a></li>
+
+                <!-- B.Tech CSAI -->
+                <li><a href="btech/csai/ai-engineer.html">AI Engineer - B.Tech CSAI</a></li>
+                <li><a href="btech/csai/computer-vision-ai.html">Computer Vision AI - B.Tech CSAI</a></li>
+                <li><a href="btech/csai/data-analyst-ai.html">Data Analyst AI - B.Tech CSAI</a></li>
+                <li><a href="btech/csai/machine-learning-scientist.html">Machine Learning Scientist - B.Tech CSAI</a></li>
+                <li><a href="btech/csai/nlp-specialist-ai.html">NLP Specialist AI - B.Tech CSAI</a></li>
+                <li><a href="btech/csai/prompt-engineer.html">Prompt Engineer - B.Tech CSAI</a></li>
+                <li><a href="btech/csai/research-scientist-ai.html">Research Scientist AI - B.Tech CSAI</a></li>
+                <li><a href="btech/csai/robotics-ai.html">Robotics AI - B.Tech CSAI</a></li>
+
+                <!-- B.Tech CSCS -->
+                <li><a href="btech/cscs/cyber-security-analyst.html">Cyber Security Analyst - B.Tech CSCS</a></li>
+                <li><a href="btech/cscs/ethical-hacker.html">Ethical Hacker - B.Tech CSCS</a></li>
+                <li><a href="btech/cscs/incident-responder.html">Incident Responder - B.Tech CSCS</a></li>
+                <li><a href="btech/cscs/security-consultant.html">Security Consultant - B.Tech CSCS</a></li>
+
+                <!-- B.Tech CSDS -->
+                <li><a href="btech/csds/big-data-engineer.html">Big Data Engineer - B.Tech CSDS</a></li>
+                <li><a href="btech/csds/data-analyst.html">Data Analyst - B.Tech CSDS</a></li>
+                <li><a href="btech/csds/data-scientist.html">Data Scientist - B.Tech CSDS</a></li>
+
+                <!-- B.Tech CSE -->
+                <li><a href="btech/cse/ai-engineer.html">AI Engineer - B.Tech CSE</a></li>
+                <li><a href="btech/cse/cloud-engineer.html">Cloud Engineer - B.Tech CSE</a></li>
+                <li><a href="btech/cse/cybersecurity-analyst.html">Cybersecurity Analyst - B.Tech CSE</a></li>
+                <li><a href="btech/cse/data-scientist.html">Data Scientist - B.Tech CSE</a></li>
+                <li><a href="btech/cse/devops-engineer.html">DevOps Engineer - B.Tech CSE</a></li>
+                <li><a href="btech/cse/software-engineer.html">Software Engineer - B.Tech CSE</a></li>
+                <li><a href="btech/cse/system-analyst.html">System Analyst - B.Tech CSE</a></li>
+                <li><a href="btech/cse/web-developer.html">Web Developer - B.Tech CSE</a></li>
+
+                <!-- B.Tech CSML -->
+                <li><a href="btech/csml/ai-research-scientist.html">AI Research Scientist - B.Tech CSML</a></li>
+                <li><a href="btech/csml/computer-vision-engineer.html">Computer Vision Engineer - B.Tech CSML</a></li>
+                <li><a href="btech/csml/data-scientist.html">Data Scientist - B.Tech CSML</a></li>
+                <li><a href="btech/csml/deep-learning-specialist.html">Deep Learning Specialist - B.Tech CSML</a></li>
+                <li><a href="btech/csml/machine-learning-engineer.html">Machine Learning Engineer - B.Tech CSML</a></li>
+                <li><a href="btech/csml/mlops-engineer.html">MLOps Engineer - B.Tech CSML</a></li>
+                <li><a href="btech/csml/nlp-engineer.html">NLP Engineer - B.Tech CSML</a></li>
+                <li><a href="btech/csml/robotics-engineer.html">Robotics Engineer - B.Tech CSML</a></li>
+
+                <!-- B.Tech ECE -->
+                <li><a href="btech/ece/communication-engineer.html">Communication Engineer - B.Tech ECE</a></li>
+                <li><a href="btech/ece/embedded-systems-engineer.html">Embedded Systems Engineer - B.Tech ECE</a></li>
+                <li><a href="btech/ece/signal-processing-engineer.html">Signal Processing Engineer - B.Tech ECE</a></li>
+                <li><a href="btech/ece/vlsi-designer.html">VLSI Designer - B.Tech ECE</a></li>
+
+                <!-- B.Tech EEE -->
+                <li><a href="btech/eee/control-systems-engineer.html">Control Systems Engineer - B.Tech EEE</a></li>
+                <li><a href="btech/eee/electrical-design-engineer.html">Electrical Design Engineer - B.Tech EEE</a></li>
+                <li><a href="btech/eee/power-systems-engineer.html">Power Systems Engineer - B.Tech EEE</a></li>
+                <li><a href="btech/eee/renewable-energy-engineer.html">Renewable Energy Engineer - B.Tech EEE</a></li>
+
+                <!-- B.Tech IT -->
+                <li><a href="btech/it/cloud-specialist.html">Cloud Specialist - B.Tech IT</a></li>
+                <li><a href="btech/it/database-administrator.html">Database Administrator - B.Tech IT</a></li>
+                <li><a href="btech/it/it-support-specialist.html">IT Support Specialist - B.Tech IT</a></li>
+                <li><a href="btech/it/network-administrator.html">Network Administrator - B.Tech IT</a></li>
+                <li><a href="btech/it/security-analyst.html">Security Analyst - B.Tech IT</a></li>
+                <li><a href="btech/it/software-developer.html">Software Developer - B.Tech IT</a></li>
+                <li><a href="btech/it/technical-writer.html">Technical Writer - B.Tech IT</a></li>
+                <li><a href="btech/it/web-admin.html">Web Admin - B.Tech IT</a></li>
+
+                <!-- B.Tech Mech -->
+                <li><a href="btech/mech/automotive-engineer.html">Automotive Engineer - B.Tech Mech</a></li>
+                <li><a href="btech/mech/manufacturing-engineer.html">Manufacturing Engineer - B.Tech Mech</a></li>
+                <li><a href="btech/mech/robotics-engineer.html">Robotics Engineer - B.Tech Mech</a></li>
+                <li><a href="btech/mech/thermal-engineer.html">Thermal Engineer - B.Tech Mech</a></li>
+
+                <!-- Pharmacy -->
+                <li><a href="pharmacy/clinical-pharmacy/clinical-pharmacist.html">Clinical Pharmacist - Pharmacy</a></li>
+                <li><a href="pharmacy/clinical-pharmacy/clinical-research-associate.html">Clinical Research Associate - Pharmacy</a></li>
+                <li><a href="pharmacy/clinical-pharmacy/pharmacovigilance-officer.html">Pharmacovigilance Officer - Pharmacy</a></li>
+                <li><a href="pharmacy/clinical-pharmacy/pharmacy-consultant.html">Pharmacy Consultant - Pharmacy</a></li>
+                <li><a href="pharmacy/industrial-pharmacy/formulation-scientist.html">Formulation Scientist - Pharmacy</a></li>
+                <li><a href="pharmacy/industrial-pharmacy/production-manager.html">Production Manager - Pharmacy</a></li>
+                <li><a href="pharmacy/industrial-pharmacy/quality-assurance.html">Quality Assurance - Pharmacy</a></li>
+                <li><a href="pharmacy/industrial-pharmacy/regulatory-affairs.html">Regulatory Affairs - Pharmacy</a></li>
+
+                <!-- BSc -->
+                <li><a href="bsc/cs/web-developer.html">Web Developer - BSc CS</a></li>
+                <li><a href="bsc/biotech/biotech-clinical-research.html">Clinical Research - BSc Biotech</a></li>
+                <li><a href="bsc/agriculture/agricultural-entrepreneur.html">Agricultural Entrepreneur - BSc Agriculture</a></li>
+                <li><a href="bsc/agriculture/agricultural-officer.html">Agricultural Officer - BSc Agriculture</a></li>
+                <li><a href="bsc/agriculture/agronomist.html">Agronomist - BSc Agriculture</a></li>
+                <li><a href="bsc/agriculture/soil-scientist.html">Soil Scientist - BSc Agriculture</a></li>
+                <li><a href="bsc/biotech/biotech-bioinformatics.html">Biotech Bioinformatics - BSc Biotech</a></li>
+                <li><a href="bsc/biotech/biotech-quality-control.html">Biotech Quality Control - BSc Biotech</a></li>
+                <li><a href="bsc/biotech/biotech-research-scientist.html">Biotech Research Scientist - BSc Biotech</a></li>
+                <li><a href="bsc/cs/cyber-security-analyst.html">Cyber Security Analyst - BSc CS</a></li>
+                <li><a href="bsc/cs/data-analyst.html">Data Analyst - BSc CS</a></li>
+                <li><a href="bsc/cs/software-developer.html">Software Developer - BSc CS</a></li>
+
+                <!-- Diploma -->
+                <li><a href="diploma/mechanical/quality-control-engineer.html">Quality Control Engineer - Diploma Mechanical</a></li>
+                <li><a href="diploma/automobile/automobile-design-engineer.html">Automobile Design Engineer - Diploma Automobile</a></li>
+                <li><a href="diploma/automobile/automobile-production-engineer.html">Automobile Production Engineer - Diploma Automobile</a></li>
+                <li><a href="diploma/automobile/automobile-rd-engineer.html">Automobile R&D Engineer - Diploma Automobile</a></li>
+                <li><a href="diploma/automobile/automobile-service-engineer.html">Automobile Service Engineer - Diploma Automobile</a></li>
+                <li><a href="diploma/civil/quality-control-inspector.html">Quality Control Inspector - Diploma Civil</a></li>
+                <li><a href="diploma/civil/site-engineer.html">Site Engineer - Diploma Civil</a></li>
+                <li><a href="diploma/civil/structural-drafter.html">Structural Drafter - Diploma Civil</a></li>
+                <li><a href="diploma/civil/survey-technician.html">Survey Technician - Diploma Civil</a></li>
+                <li><a href="diploma/computer/network-engineer.html">Network Engineer - Diploma Computer</a></li>
+                <li><a href="diploma/computer/software-developer.html">Software Developer - Diploma Computer</a></li>
+                <li><a href="diploma/computer/system-analyst.html">System Analyst - Diploma Computer</a></li>
+                <li><a href="diploma/computer/web-developer.html">Web Developer - Diploma Computer</a></li>
+
+                <!-- MBA -->
+                <li><a href="mba/business-analytics/analytics-manager.html">Analytics Manager - MBA Business Analytics</a></li>
+                <li><a href="mba/business-analytics/business-analyst.html">Business Analyst - MBA Business Analytics</a></li>
+                <li><a href="mba/business-analytics/consultant.html">Consultant - MBA Business Analytics</a></li>
+                <li><a href="mba/business-analytics/data-analyst.html">Data Analyst - MBA Business Analytics</a></li>
+                <li><a href="mba/finance/corporate-finance-manager.html">Corporate Finance Manager - MBA Finance</a></li>
+                <li><a href="mba/finance/financial-analyst.html">Financial Analyst - MBA Finance</a></li>
+                <li><a href="mba/finance/investment-banker.html">Investment Banker - MBA Finance</a></li>
+                <li><a href="mba/finance/risk-manager.html">Risk Manager - MBA Finance</a></li>
+                <li><a href="mba/hrm/compensation-benefits.html">Compensation Benefits - MBA HRM</a></li>
+                <li><a href="mba/hrm/hr-manager.html">HR Manager - MBA HRM</a></li>
+                <li><a href="mba/hrm/talent-acquisition.html">Talent Acquisition - MBA HRM</a></li>
+                <li><a href="mba/hrm/training-development.html">Training Development - MBA HRM</a></li>
+
+                <!-- M.Tech -->
+                <li><a href="mtech/ai/ai-research-scientist.html">AI Research Scientist - M.Tech AI</a></li>
+                <li><a href="mtech/ai/computer-vision-engineer.html">Computer Vision Engineer - M.Tech AI</a></li>
+                <li><a href="mtech/ai/data-scientist.html">Data Scientist - M.Tech AI</a></li>
+                <li><a href="mtech/ai/machine-learning-engineer.html">Machine Learning Engineer - M.Tech AI</a></li>
+                <li><a href="mtech/ai/nlp-engineer.html">NLP Engineer - M.Tech AI</a></li>
+                <li><a href="mtech/cloud/cloud-architect.html">Cloud Architect - M.Tech Cloud</a></li>
+                <li><a href="mtech/cloud/cloud-consultant.html">Cloud Consultant - M.Tech Cloud</a></li>
+                <li><a href="mtech/cloud/cloud-security-specialist.html">Cloud Security Specialist - M.Tech Cloud</a></li>
+                <li><a href="mtech/cloud/devops-engineer.html">DevOps Engineer - M.Tech Cloud</a></li>
+                <li><a href="mtech/cybersecurity/incident-responder.html">Incident Responder - M.Tech Cybersecurity</a></li>
+                <li><a href="mtech/cybersecurity/penetration-tester.html">Penetration Tester - M.Tech Cybersecurity</a></li>
+                <li><a href="mtech/cybersecurity/security-analyst.html">Security Analyst - M.Tech Cybersecurity</a></li>
+                <li><a href="mtech/cybersecurity/security-engineer.html">Security Engineer - M.Tech Cybersecurity</a></li>
+            </ul>
+            </div>
+            </div>
+
+            
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Stream.
+                Fuel Your Passion. 
+                Forge Your Future.</h1>
+            <p>Discover career paths tailored to your degree</p>
+            <a href="#programs" class="btn primary-btn">Explore Programs</a>
+        </div>
+    </section>
+
+    <!-- Stream Cards Section -->
+    <section class="streams" id="programs">
+        <div class="container">
+            <h2 class="section-title">Choose Your Stream</h2>
+            <div class="stream-cards">
+                <a href="btech/index.html" class="stream-card btech btech-theme">
+                    <div class="card-content">
+                        <h3>B.Tech</h3>
+                        <p>Bachelor of Technology</p>
+                        <span class="explore">Explore <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="mtech/index.html" class="stream-card mtech mtech-theme">
+                    <div class="card-content">
+                        <h3>M.Tech</h3>
+                        <p>Master of Technology</p>
+                        <span class="explore">Explore <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="diploma/index.html" class="stream-card diploma diploma-theme">
+                    <div class="card-content">
+                        <h3>Diploma</h3>
+                        <p>Technical Diploma</p>
+                        <span class="explore">Explore <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="pharmacy/index.html" class="stream-card pharmacy pharmacy-theme">
+                    <div class="card-content">
+                        <h3>Pharmacy</h3>
+                        <p>Bachelor of Pharmacy</p>
+                        <span class="explore">Explore <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="mba/index.html" class="stream-card mba mba-theme">
+                    <div class="card-content">
+                        <h3>MBA</h3>
+                        <p>Master of Business Administration</p>
+                        <span class="explore">Explore <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="bsc/index.html" class="stream-card bsc bsc-theme">
+                    <div class="card-content">
+                        <h3>B.Sc</h3>
+                        <p>Bachelor of Science</p>
+                        <span class="explore">Explore <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Streamlify?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Career Roadmaps</h3>
+                    <p>Clear progression paths from entry-level to leadership roles</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Relevant Subjects</h3>
+                    <p>Focus on what matters with our curated subject lists</p>
+                    <div class="pill-tags">
+                        <span class="pill">Data Structures</span>
+                        <span class="pill">Algorithms</span>
+                        <span class="pill">DBMS</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Industry-Aligned Roles</h3>
+                    <p>Discover positions that match your educational background</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Faculty-Approved Content</h3>
+                    <p>Information verified by experienced educators</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Students Say</h2>
+            <div class="testimonial-carousel" id="testimonialCarousel">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="student-img">
+                            <img src="review.avif" alt="Student">
+                        </div>
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <p>"Streamlify helped me choose the right specialization in CSE. Now I'm working at my dream company!"</p>
+                        <h4>Priya Sharma</h4>
+                        <span>B.Tech CSE Graduate</span>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="student-img">
+                            <img src="review.avif" alt="Student">
+                        </div>
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <p>"The career roadmaps were incredibly helpful in planning my academic journey through M.Tech."</p>
+                        <h4>Rahul Verma</h4>
+                        <span>M.Tech Student</span>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="student-img">
+                            <img src="review.avif" alt="Student">
+                        </div>
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <p>"As a diploma student, I found exactly what subjects to focus on for my desired career path."</p>
+                        <h4>Amit Kumar</h4>
+                        <span>Diploma in Electronics</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/streamlify_edu/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/streamlify/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Streamlify. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>
