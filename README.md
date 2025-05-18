@@ -5,6 +5,10 @@ This platform is designed to help students explore various **job roles** availab
 
 ---
 
+🌐 **Live Website:** [https://streamlifyedu.netlify.app/](https://streamlifyedu.netlify.app/) 🔗
+
+---
+
 ## 📌 Features
 
 🔹 **Branch-Wise Navigation**  
