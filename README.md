@@ -50,7 +50,7 @@ Use the home page to choose your stream, view testimonials, and navigate across 
    git clone https://github.com/manvith-kumar/Streamlify---DTI.git
 2. **Navigate to the project directory:**
    ```bash
-   cd streamlify-career-guide
+   cd Streamlify---DTI
 3. **Open index.html in your browser:**
  - Simply double-click the index.html file
                 OR
