@@ -5,6 +5,16 @@ const navLinks = document.getElementById('navLinks');
 if (hamburger) {
     hamburger.addEventListener('click', () => {
         navLinks.classList.toggle('active');
+        
+        // Add login link to mobile menu if it doesn't exist
+        if (navLinks.classList.contains('active') && !document.querySelector('.nav-links ul li a[href="login.html"]')) {
+            const loginLi = document.createElement('li');
+            const loginLink = document.createElement('a');
+            loginLink.href = 'login.html';
+            loginLink.textContent = 'Login';
+            loginLi.appendChild(loginLink);
+            document.querySelector('.nav-links ul').appendChild(loginLi);
+        }
     });
 }
 
